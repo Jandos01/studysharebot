@@ -1,0 +1,113 @@
+   * **`locales/kk/bot.ftl` (Қазақша):**
+     <llm-snippet-file>locales/kk/bot.ftl</llm-snippet-file>
+     ```ftl
+     language-changed = Тіл { $lang_name }-ға өзгертілді.
+     select-language = 🌐 Тілді таңдаңыз:
+     welcome = Сәлем, { $user_name }! Мен сіздің оқу материалдарыңыз бойынша көмекші ботыңызбын.
+     main-menu-message = Басты мәзір:
+     upload-file = 📤 Файл жүктеу
+     my-files = 🗂️ Менің файлдарым
+     search-files = 🔎 Файлдарды іздеу
+     help = ℹ️ Көмек
+     change-language = 🌐 Тілді өзгерту
+     cancel = Болдырмау
+     file-uploaded-successfully = ✅ Файл сәтті жүктелді: { $file_name }
+     file-upload-error = ❌ Файлды жүктеу кезінде қате: { $error_message }
+     select-category-for-file = 🗂️ Файлды сақтау үшін категорияны таңдаңыз:
+     category-not-found = ⚠️ Категория табылмады.
+     no-files-in-category = 📂 Бұл категорияда файлдар жоқ.
+     file-too-large = ⚠️ Файлдың өлшемі тым үлкен. Максималды өлшем: { $max_size } MB.
+     invalid-file-type = ⚠️ Рұқсат етілмеген файл түрі. Рұқсат етілгендер: { $extensions }.
+     add-category-prompt = Жаңа категорияның атауын (кілтін) енгізіңіз (мысалы, `new_subject_key`):
+     category-added = ✅ Категория '{ $category_key }' сәтті қосылды. Аудармаларды .ftl файлдарына қосуды ұмытпаңыз.
+     category-exists = ⚠️ '{ $category_key }' категориясы бұрыннан бар.
+     category-name-empty = ⚠️ Категория атауы (кілті) бос болмауы керек.
+     error-adding-category = ❌ Категорияны қосу кезінде қате: { $error_message }
+     back-to-main-menu = ⬅️ Басты мәзірге оралу
+
+     # Категория атаулары (config.ini-дағы CATEGORIES_KEYS-ке сәйкес)
+     category-mathematics_name = Математика
+     category-physics_name = Физика
+     category-programming_name = Бағдарламалау
+     category-thesis_name = Диплом жұмыстары
+     category-informatics_name = Информатика
+     category-it_courses_name = IT курстары
+     category-english_name = Ағылшын тілі
+     category-history_name = Тарих
+     ```
+
+   * **`locales/en/bot.ftl` (Ағылшынша):**
+     <llm-snippet-file>locales/en/bot.ftl</llm-snippet-file>
+     ```ftl
+     language-changed = Language changed to { $lang_name }.
+     select-language = 🌐 Select language:
+     welcome = Hello, { $user_name }! I am your study materials assistant bot.
+     main-menu-message = Main menu:
+     upload-file = 📤 Upload File
+     my-files = 🗂️ My Files
+     search-files = 🔎 Search Files
+     help = ℹ️ Help
+     change-language = 🌐 Change Language
+     cancel = Cancel
+     file-uploaded-successfully = ✅ File uploaded successfully: { $file_name }
+     file-upload-error = ❌ Error uploading file: { $error_message }
+     select-category-for-file = 🗂️ Select a category to save the file:
+     category-not-found = ⚠️ Category not found.
+     no-files-in-category = 📂 No files in this category.
+     file-too-large = ⚠️ File size is too large. Maximum size: { $max_size } MB.
+     invalid-file-type = ⚠️ Invalid file type. Allowed types: { $extensions }.
+     add-category-prompt = Enter the name (key) of the new category (e.g., `new_subject_key`):
+     category-added = ✅ Category '{ $category_key }' added successfully. Remember to add translations to .ftl files.
+     category-exists = ⚠️ Category '{ $category_key }' already exists.
+     category-name-empty = ⚠️ Category name (key) cannot be empty.
+     error-adding-category = ❌ Error adding category: { $error_message }
+     back-to-main-menu = ⬅️ Back to Main Menu
+
+     # Category Names (corresponding to CATEGORIES_KEYS in config.ini)
+     category-mathematics_name = Mathematics
+     category-physics_name = Physics
+     category-programming_name = Programming
+     category-thesis_name = Thesis Papers
+     category-informatics_name = Informatics
+     category-it_courses_name = IT Courses
+     category-english_name = English Language
+     category-history_name = History
+     ```
+
+   * **`locales/ru/bot.ftl` (Орысша):**
+     <llm-snippet-file>locales/ru/bot.ftl</llm-snippet-file>
+     ```ftl
+     language-changed = Язык изменен на { $lang_name }.
+     select-language = 🌐 Выберите язык:
+     welcome = Привет, { $user_name }! Я ваш бот-помощник по учебным материалам.
+     main-menu-message = Главное меню:
+     upload-file = 📤 Загрузить файл
+     my-files = 🗂️ Мои файлы
+     search-files = 🔎 Поиск файлов
+     help = ℹ️ Помощь
+     change-language = 🌐 Сменить язык
+     cancel = Отмена
+     file-uploaded-successfully = ✅ Файл успешно загружен: { $file_name }
+     file-upload-error = ❌ Ошибка при загрузке файла: { $error_message }
+     select-category-for-file = 🗂️ Выберите категорию для сохранения файла:
+     category-not-found = ⚠️ Категория не найдена.
+     no-files-in-category = 📂 В этой категории нет файлов.
+     file-too-large = ⚠️ Размер файла слишком большой. Максимальный размер: { $max_size } МБ.
+     invalid-file-type = ⚠️ Недопустимый тип файла. Разрешенные типы: { $extensions }.
+     add-category-prompt = Введите название (ключ) новой категории (например, `new_subject_key`):
+     category-added = ✅ Категория '{ $category_key }' успешно добавлена. Не забудьте добавить переводы в .ftl файлы.
+     category-exists = ⚠️ Категория '{ $category_key }' уже существует.
+     category-name-empty = ⚠️ Название (ключ) категории не может быть пустым.
+     error-adding-category = ❌ Ошибка при добавлении категории: { $error_message }
+     back-to-main-menu = ⬅️ Назад в главное меню
+
+     # Названия категорий (соответствуют CATEGORIES_KEYS в config.ini)
+     category-mathematics_name = Математика
+     category-physics_name = Физика
+     category-programming_name = Программирование
+     category-thesis_name = Дипломные работы
+     category-informatics_name = Информатика
+     category-it_courses_name = IT курсы
+     category-english_name = Английский язык
+     category-history_name = История
+     ```
